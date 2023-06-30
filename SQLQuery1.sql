@@ -24,4 +24,5 @@ update AddressBook set type='my address book' where firstname = 'raj' and lastna
 update AddressBook set type='my address book' where firstname = 'shyam' and lastname = 'shinde';
 update AddressBook set type='vip persons' where firstname = 'rahul' and lastname = 'shinde';
 
+select type, count(*) AS totalnumber from AddressBook group by type;
 
