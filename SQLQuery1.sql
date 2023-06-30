@@ -18,4 +18,10 @@ select city, state, count(*) as size from AddressBook group by city, state;
 
 select * from AddressBook where city = 'maha' order by firstname, lastname;
 
+alter table AddressBook add name varchar(20), type varchar(20);
+update AddressBook set type='my address book' where firstname = 'ram' and lastname = 'shinde';
+update AddressBook set type='my address book' where firstname = 'raj' and lastname = 'shinde';
+update AddressBook set type='my address book' where firstname = 'shyam' and lastname = 'shinde';
+update AddressBook set type='vip persons' where firstname = 'rahul' and lastname = 'shinde';
+
 
