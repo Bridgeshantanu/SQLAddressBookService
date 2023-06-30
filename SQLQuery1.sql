@@ -16,5 +16,6 @@ select * from AddressBook where city = 'maha' OR state = 'maharashtra';
 
 select city, state, count(*) as size from AddressBook group by city, state;
 
+select * from AddressBook where city = 'maha' order by firstname, lastname;
 
 
