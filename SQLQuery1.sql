@@ -5,3 +5,6 @@ zip int, phonenumber bigint, email varchar(50));
 
 insert into AddressBook values('ram','shinde','xyz','maha','maharashtra',401104,421571525,'ramshinde@gmail.com');
 select * from AddressBook;
+
+update AddressBook set address='abc', city='def', state='erer', zip=554455, phonenumber=78522622,
+email='ramshinde45@gmail.com' where firstname = 'ram' and lastname = 'shinde';
