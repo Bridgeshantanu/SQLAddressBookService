@@ -8,3 +8,6 @@ select * from AddressBook;
 
 update AddressBook set address='abc', city='def', state='erer', zip=554455, phonenumber=78522622,
 email='ramshinde45@gmail.com' where firstname = 'ram' and lastname = 'shinde';
+
+delete from AddressBook where firstname = 'raj' AND lastname = 'shinde';
+
