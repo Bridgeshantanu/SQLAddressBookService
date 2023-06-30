@@ -27,4 +27,5 @@ update AddressBook set name='vip persons', type='family' where firstname = 'rahu
 
 select type, count(*) as totalnumber from AddressBook group by type;
 
-
+insert into AddressBook values('gaurav','patil','xyz','maha','maharashtra',555584,421549525,'gauravpatil@gmail.com','vip persons', 'friend'),
+('rahul','solunke','xyz','maha','maharashtra',401104,70210584,'rahulsolunke@gmail.com','my address book','famuly');
